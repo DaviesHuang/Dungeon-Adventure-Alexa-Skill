@@ -1,0 +1,91 @@
+{
+  "intents": [
+    {
+      "intent": "UnrecognizedIntent"
+    },
+    {
+      "intent": "ResetStateIntent"
+    },
+    {
+      "intent": "RestoreStateIntent"
+    },
+    {
+      "intent": "RepeatOptionsIntent"
+    },
+    {
+      "intent": "RepeatSceneIntent"
+    },
+    {
+      "intent": "GoBackIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "BeginIntent"
+    },
+    {
+      "intent": "DungeonIntent"
+    },
+    {
+      "intent": "CastleIntent"
+    },
+    {
+      "intent": "GoLeftIntent"
+    },
+    {
+      "intent": "GoRightIntent"
+    },
+    {
+      "intent": "AttackIntent"
+    },
+    {
+      "intent": "EscapeIntent"
+    },
+    {
+      "intent": "UseTorchIntent"
+    },
+    {
+      "intent": "KeepMovingIntent"
+    },
+    {
+      "intent": "InvestigateIntent"
+    },
+    {
+      "intent": "GoDownIntent"
+    },
+    {
+      "intent": "GoingDownIntent"
+    },
+    {
+      "intent": "SneakIntent"
+    },
+    {
+      "intent": "OpenTheChestIntent"
+    },
+    {
+      "intent": "OpenDoorIntent"
+    },
+    {
+      "intent": "AttackHisHeadIntent"
+    },
+    {
+      "intent": "AttackHisHeartIntent"
+    },
+    {
+      "intent": "TakeTheCrownIntent"
+    },
+    {
+      "intent": "LeaveTheDungeonIntent"
+    },
+    {
+      "intent": "BreakTheCrownIntent"
+    }
+  ]
+}

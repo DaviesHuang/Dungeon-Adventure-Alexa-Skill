@@ -1,0 +1,51 @@
+UnrecognizedIntent ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+ResetStateIntent reset skill
+ResetStateIntent start again
+ResetStateIntent reset
+RestoreStateIntent resume skill
+RestoreStateIntent resume
+RepeatOptionsIntent repeat options
+RepeatSceneIntent repeat scene
+RepeatSceneIntent repeat
+GoBackIntent go back
+AMAZON.HelpIntent help
+AMAZON.StopIntent exit skill
+AMAZON.CancelIntent exit skill
+BeginIntent begin
+DungeonIntent dungeon
+CastleIntent castle
+GoLeftIntent go left
+GoRightIntent go right
+AttackIntent attack
+EscapeIntent escape
+UseTorchIntent use torch
+KeepMovingIntent keep moving
+InvestigateIntent investigate
+KeepMovingIntent keep moving
+InvestigateIntent investigate
+KeepMovingIntent keep moving
+GoDownIntent go down
+KeepMovingIntent keep moving
+GoingDownIntent going down
+KeepMovingIntent keep moving
+AttackIntent attack
+SneakIntent sneak
+OpenTheChestIntent open the chest
+KeepMovingIntent keep moving
+InvestigateIntent investigate
+OpenDoorIntent open door
+InvestigateIntent investigate
+OpenDoorIntent open door
+InvestigateIntent investigate
+OpenDoorIntent open door
+AttackHisHeadIntent attack his head
+AttackHisHeartIntent attack his heart
+AttackHisHeadIntent attack his head
+AttackHisHeartIntent attack his heart
+TakeTheCrownIntent take the crown
+LeaveTheDungeonIntent leave the dungeon
+BreakTheCrownIntent break the crown

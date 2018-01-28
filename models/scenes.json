@@ -1,0 +1,767 @@
+[
+  {
+    "id": 0,
+    "color": "default",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Welcome",
+      "text": "Welcome to my Alexa Skill. To learn how to use this skill, say \"Help\".",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Welcome to my Alexa Skill. To learn how to use this skill, say \"Help\".",
+      "prompt": "When you are ready, say \"Begin\"."
+    },
+    "options": [
+      {
+        "utterances": [
+          "begin"
+        ],
+        "sceneId": 1
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "color": "default",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Welcome",
+      "text": "Dungeon or castle",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Dungeon or castle?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 3,
+        "utterances": [
+          "dungeon"
+        ]
+      },
+      {
+        "sceneId": 2,
+        "utterances": [
+          "castle"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "castle",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Sorry, this level is locked behind DLC, please purchase the season pass and wait three months.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 3,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Dungeon",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You choose the stairs going down and soon find a door in front of you. You open the door and see two paths. The door is suddenly closed and you have to go forward. Which path will you choose? Left or Right?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 4,
+        "utterances": [
+          "go left"
+        ]
+      },
+      {
+        "sceneId": 5,
+        "utterances": [
+          "go right"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Left Path",
+      "text": "Left Path",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You choose the path on your left. After walking forward for a while, you find a giant rat is in front of you. It seems the rat hasn't noticed you, you will: Attack? or Escape?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 6,
+        "utterances": [
+          "attack"
+        ]
+      },
+      {
+        "sceneId": 7,
+        "utterances": [
+          "escape"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Right path",
+      "text": "Right Path",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You choose the path on your right. Then you find there is something on the wall. What will you do?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 8,
+        "utterances": [
+          "use torch"
+        ]
+      },
+      {
+        "sceneId": 13,
+        "utterances": [
+          "keep moving"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Attack rat",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You attacked the rat and killed it immediately. You find the rat was eating a human dead body. Will you: Investigate or Keep moving?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 10,
+        "utterances": [
+          "investigate"
+        ]
+      },
+      {
+        "sceneId": 11,
+        "utterances": [
+          "keep moving"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "color": "red",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Escape",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You choose to escape. Unfortunately, you shatter a bone on the ground and make a noise. The giant rat notices you and attacks you at once. You are dying from the attack. You hear something is whispering in your ear: “The story is divided at the beginning”",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 8,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Use torch",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You use the torch to check the wall. You see some words on the wall written in blood. The crown must be destroyed. You keep going forward. Soon you discovered an opened door. You looked inside and see a mysterious drawing using mercury on the ground. What will you do?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 12,
+        "utterances": [
+          "investigate"
+        ]
+      },
+      {
+        "sceneId": 13,
+        "utterances": [
+          "keep moving"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Investigate Dead body",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You searched the dead body. You found a note left on the ground: \"The curse is an infinite loop\". You walk forward and you found a stair. You will: Go down or keep moving?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 14,
+        "utterances": [
+          "go down"
+        ]
+      },
+      {
+        "sceneId": 15,
+        "utterances": [
+          "keep moving"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Keep moving Merge with 10",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You walk forward and you found a stair. What will you do?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 14,
+        "utterances": [
+          "going down"
+        ]
+      },
+      {
+        "sceneId": 15,
+        "utterances": [
+          "keep moving"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "color": "red",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Portal",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You touched the drawing and you appear outside of the dungeon. It’s a portal! The dungeon door is closed and there is no way in.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 13,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Zombies",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You choose to go forward. Two zombies block your path, you need to destroy them to keep going. What will you do?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 16,
+        "utterances": [
+          "attack"
+        ]
+      },
+      {
+        "sceneId": 17,
+        "utterances": [
+          "sneak"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Treasure chest",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You choose to go down. You find a treasure chest right after you reach the next level. What will you do?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 18,
+        "utterances": [
+          "open the chest"
+        ]
+      },
+      {
+        "sceneId": 19,
+        "utterances": [
+          "keep moving"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "color": "red",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "trap",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You choose to explore on the level. you stepped into a trap and died. Before you die, you discovered some words on the roof, The Dead Lord gains power from his precious.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 16,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Steel door merge with 18",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You attack zombies directly and win the fight easily. You then find a stair going down and walk down. you find a large steel door covered in blood in front of you. What will you do?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 20,
+        "utterances": [
+          "investigate"
+        ]
+      },
+      {
+        "sceneId": 21,
+        "utterances": [
+          "open door"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "color": "red",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Failed to dodge",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You tried to get closer. But the zombies noticed you and attacked you first. You failed to dodge and died.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 18,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "steel door",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You open the case. There is a piece of paper in the case and a message on it. “Symbol of the majesty is the source of the devil”. Then you go forward and soon you see a big steel door with blood color in front of you. What will you do?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 20,
+        "utterances": [
+          "investigate"
+        ]
+      },
+      {
+        "sceneId": 21,
+        "utterances": [
+          "open door"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Steel door merge with 18",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "you go forward and soon you see a big steel door with blood color in front of you. What will you do?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 20,
+        "utterances": [
+          "investigate"
+        ]
+      },
+      {
+        "sceneId": 21,
+        "utterances": [
+          "open door"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Message on door",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You checked the gate. There is one sentence on the door \"Break the core in Death Lord’s heart\". Then you enter the room and the Death Lord appeared. What will you do?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 22,
+        "utterances": [
+          "attack his head"
+        ]
+      },
+      {
+        "sceneId": 23,
+        "utterances": [
+          "attack his heart"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "death lord appear merge with 20",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "you enter the room and the Death Lord appeared. What will you do?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 22,
+        "utterances": [
+          "attack his head"
+        ]
+      },
+      {
+        "sceneId": 23,
+        "utterances": [
+          "attack his heart"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "color": "red",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Boss fight",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You successfully cut down his head, but his head recovered and use start attacking you. You failed to dodge and died.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 23,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Boss fight",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You put your sword into Death Lord’s heart and he died with a roar. His body vanished and the crown dropped to the ground. What will you do?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 24,
+        "utterances": [
+          "take the crown"
+        ]
+      },
+      {
+        "sceneId": 25,
+        "utterances": [
+          "leave the dungeon"
+        ]
+      },
+      {
+        "sceneId": 26,
+        "utterances": [
+          "break the crown"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "color": "yellow",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Bad end",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "When you put the crown on your head. You heard thousands of demons talking to you. You try to take away the crown, but you realize you cannot control your body. Later, you become the new Death Lord, waiting for next adventurer.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 25,
+    "color": "yellow",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Bad end",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You leave the dungeon without taking the crown. However, Death Lord is always immortal with the crown. Evil power is gathered by the crown. A few years later, Death Lord rebirthed, with stronger power and more wisdom, sitting in his room and waiting for next adventurer.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 26,
+    "color": "green",
+    "isHidden": true,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "True Ending",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You realize the truth of the Death Lord and break the crown. The crown starts burning in a black fire and becomes ashes. All monsters in the dungeon are purified. Death Lord has never been back. The peace is restored.",
+      "prompt": ""
+    },
+    "options": []
+  }
+]
